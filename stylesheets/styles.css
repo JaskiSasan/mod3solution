@@ -1,26 +1,39 @@
-body {
-  font-size: 16px;
-  font-family: Helvetica, Verdana, sans-serif;
+* {
+  box-sizing: border-box;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#collapsable-nav a { 
+  font-size: 1.2em;
+}
+
+#collapsable-nav a span { 
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.main-content {
+  background-color: #e0e0d1;
+  border: 1px solid ##b7b795;
 }
 
 
-.navbar {
-  background-color:  #eee;
-  border: 0px;
-  border-radius: 0px;
+@media (max-width: 767px) {
+  #collapsable-nav {
+  background-color: #c1c1a4;
+  }
 
-}
-.navbar-brand {
-  font-size: 2em;
-  padding-top: 0px;
-}
-section {
-  background-color: #eeeddd;
-  margin-bottom: 15px;  
-}
-#nav-list li {
-  background-color: #eee;
-}
-#nav-list li:hover {
-  background-color: #eee;
 }
