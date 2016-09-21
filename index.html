@@ -1,57 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coursera-Module3</title>
-  <link rel="stylesheet" href="stylesheets/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
-
-</head>
-<body>
-
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="navbar-header">
-        <h1 class="navbar-brand text-left">Food, LLC</h1>
-        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="mod3/bootstrap.min.css">
+    <link rel="stylesheet" href="mod3/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <a class="navbar-brand pull-left">Food, LLC </a>
+          <div class="visible-xs navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-      </div>
-      <div id="collapsable-nav" class="collapse navbar-collapse visible-xs">
-        <ul id="nav-list" class="nav navbar-nav visible-xs">
-          <li class="text-center"><a href="#">Chicken</a></li>
-          <li class="text-center"><a href="#">Beef</a></li>
-          <li class="text-center"><a href="#">Sushi</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+          </div>
+          <div class="navbar-collapse collapse" id="collapsable-nav" aria-expanded="false" style="height: 0.666667px;">
+            <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm">
+              <li>
+                <a href="#chicken">
+                  <span>Chicken</span></a>
+              </li>
+              <li>
+                <a href="#beef">
+                  <span>Beef</span></a>
+              </li>
+              <li>
+                <a href="#sushi">
+                  <span>Sushi</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h1 class="text-center" id="menu-title">Our Menu</h1>
+      <div class="main-content col-lg-4 col-md-4 col-sm-6 col-xs-12" id="chicken">
+        <h3 class="text-center" id="chicken">Chicken</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      <div class="main-content col-lg-4 col-md-4 col-sm-6 col-xs-12" id="beef">
+        <h3 class="text-center" id="chicken">Beef</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      <div class="main-content col-lg-4 col-md-4 col-sm-12 col-xs-12" id="sushi">
+        <h3 class="text-center" id="chicken">Sushi</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+    <script src="mod3/jquery-2.1.4.min.js.download"></script>
+    <script src="mod3/bootstrap.min.js.download"></script>
+    <script src="mod3/script.js.download"></script>
   
-  <div class="container-fluid">
-    <h2 class="text-center">Our Menu</h2>
-    <section class=".col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <h3 class="text-center">Chicken</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </section>
-    <section class=".col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <h3 class="text-center">Beef</h3>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
-    </section>
-
-    <section class=".col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <h3 class="text-center">Sushi</h3>
-      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't any embarrassing hidden in the middle of in the middle of some form, by injected text. All the Lorem Ipsum going to use a passage of Lorem Ipsum, you need to be surgenerators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-    </section> 
-  </div>
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
